@@ -20,9 +20,9 @@
    				 <video id="penguin-sledding" autoplay loop="true" src="VfE_html5.mp4"></video>
   			</a-assets>
   			<!-- Using the asset management system. -->
-  			<a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
+  			<!--<a-video src="#penguin-sledding" width="16" height="9" position="0 0 -20"></a-video>
   			<!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-  			<a-video src="VfE_html5.mp4"></a-video>
+  			<!--<a-video src="VfE_html5.mp4"></a-video>
 		</a-scene>
 	</body>
 
@@ -38,10 +38,10 @@
 <body style='margin : 0px; overflow: hidden;'>
 <a-scene embedded arjs>
     <a-assets>
-        <img id="transpImage" src="tenor.gif">
+	<video id="penguin-sledding" autoplay loop="true" src="tenor.gif"></video>
     </a-assets>
     
-    <a-plane position="0 0 0" rotation="-90 0 0" width="2" height="2" src="#transpImage"></a-plane>
+    <a-plane position="0 0 0" rotation="-90 0 0" width="2" height="2" src="#penguin-sledding"></a-plane>
     <a-marker-camera preset='hiro'></a-marker-camera>
 </a-scene>
 </body>
